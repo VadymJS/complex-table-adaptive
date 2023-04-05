@@ -1,0 +1,13 @@
+// Colors
+$color-dark: #242731;
+$color-white: #ffffff;
+
+$color-grey: #808191;
+$color-grey-10: rgba(#808191, 10%);
+$color-grey-20: rgba(#808191, 20%);
+
+// Breakpoints
+$media: (xs: 0, md: 768px, lg: 1024px, xl: 1200px, xxl: 1400px) !default;
+
+// Easing
+$ease-out: cubic-bezier(.36, .52, .23, .93);

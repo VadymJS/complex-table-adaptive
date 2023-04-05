@@ -1,0 +1,9 @@
+// Adaptive: Add media
+// Example: @include media(md) {}
+@mixin media($name, $value: '') {
+    @if $name == xs {
+        @content;
+    } @else {
+        @media (min-width: map-get($media, $name)) { @content; }
+    }
+}
